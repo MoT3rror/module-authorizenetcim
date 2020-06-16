@@ -14,5 +14,11 @@
                 <value id="authorizenet-test" type="host">jstest.authorize.net</value>
             </values>
         </policy>
+        <policy id="connect-src">
+            <values>
+                <value id="authorizenet" type="host">js.authorize.net</value>
+                <value id="authorizenet-test" type="host">jstest.authorize.net</value>
+            </values>
+         </policy>
     </policies>
 </csp_whitelist>
