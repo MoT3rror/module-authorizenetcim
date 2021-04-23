@@ -269,7 +269,7 @@ class AuthorizenetAdapter
         if ($result->getMessages()->getData('resultCode') === 'Error') {
             if ($result->getMessages()->getMessage()[0]->getCode() !== self::ERROR_CODE_DUPLICATE) {
                 throw new PaymentException(
-                    __('Profile could not be created.')
+                    __($result->getMessages()->getMessage()[0]->getText())
                 );
             }
         }
@@ -296,7 +296,7 @@ class AuthorizenetAdapter
         if ($result->getMessages()->getData('resultCode') === 'Error') {
             if ($result->getMessages()->getMessage()[0]->getCode() !== self::ERROR_CODE_DUPLICATE) {
                 throw new PaymentException(
-                    __('Profile could not be created.')
+                    __($result->getMessages()->getMessage()[0]->getText())
                 );
             }
         }
