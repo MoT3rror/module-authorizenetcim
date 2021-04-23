@@ -133,6 +133,7 @@ class PaymentDataBuilder implements BuilderInterface
         $transactionRequest->setTransactionType(TransactionRequest\TransactionType::TYPE_AUTH_ONLY);
         $transactionRequest->setAmount($this->formatPrice($this->subjectReader->readAmount($subject)));
         $transactionRequest->setOrder($orderType);
+        $transactionRequest->setCustomerIp($_SERVER['REMOTE_ADDR']);
 
         $result = [
             self::CAPTURE => false,
