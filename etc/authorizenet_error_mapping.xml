@@ -14,6 +14,10 @@
         <message code="6" translate="true">The credit card number is invalid. Please try again.</message>
         <message code="7" translate="true">The credit card expiration is invalid. Please try again.</message>
         <message code="8" translate="true">The credit card is expired. Please try again.</message>
+        <message code="17" translate="true">This credit card type is not supported. Please try a different card.</message>
         <message code="27" translate="true">The transaction has been declined because of an AVS mismatch. The address provided does not match billing address of cardholder.</message>
+        <message code="28" translate="true">This credit card type is not supported. Please try a different card.</message>
+        <message code="37" translate="true">The credit card number is invalid. Please try again.</message>
+        <message code="127" translate="true">The transaction has been declined because of an AVS mismatch. The address provided does not match billing address of cardholder.</message>
     </message_list>
 </mapping>
