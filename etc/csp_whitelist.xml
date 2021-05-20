@@ -20,6 +20,7 @@
                 <value id="authorizenet-test" type="host">jstest.authorize.net</value>
                 <value id="authorizenet-api" type="host">api.authorize.net</value>
                 <value id="authorizenet-api-test" type="host">apitest.authorize.net</value>
+                <value id="authorizenet-api2" type="host">api2.authorize.net</value>
             </values>
          </policy>
     </policies>
